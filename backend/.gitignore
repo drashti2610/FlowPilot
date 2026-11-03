@@ -1,0 +1,18 @@
+# Backend Environment & Secrets
+.env
+*.env
+*.env.local
+!*.env.example
+
+# SQLite Databases
+*.db
+*.sqlite
+*.sqlite3
+flowpilot.db
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
